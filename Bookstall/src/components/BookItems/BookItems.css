@@ -1,0 +1,77 @@
+.book-item{
+    width: 100%;
+    height: 650px;
+    margin: auto;
+    border-radius: 15px;
+    box-shadow: 1 1 10 #00000015;
+    transition: 0.3s;
+    animation: fadeIn 1s;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.25);
+}
+
+.book-item-image{
+    width: 100%;
+    height: 450px;
+    border-radius: 15px 15px 0 0;
+}
+
+.book-item-info{
+    padding: 20px;
+}
+
+.book-item-name-rating{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.book-item-name-rating p{
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.book-item-name-rating img{
+    width: 70px;
+}
+
+.book-item-description{
+    color: #676767;
+    font-size: 12px;
+}
+
+.book-item-price{
+    color: tomato;
+    font-size: 32px;
+    font-weight: 500;
+    margin: 10px 0;
+}
+
+.book-item-img-container{
+    position: relative;
+}
+
+.book-item-img-container .add{
+    width: 35px;
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+.book-item-counter{
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 6px;
+    border-radius: 50px;
+    background-color: #fff;
+}
+
+.book-item-counter img{
+    width: 30px;
+}
