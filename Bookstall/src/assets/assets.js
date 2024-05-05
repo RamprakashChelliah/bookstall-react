@@ -139,7 +139,7 @@ export const category_list = [
         category_image: biography
     }]
 
-export const food_list = [
+export const book_list = [
     {
         _id: "1",
         name: "The women",
